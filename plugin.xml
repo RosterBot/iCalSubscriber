@@ -34,17 +34,12 @@
             <uses-permission android:name="android.permission.GET_ACCOUNTS" />
         </config-file>
 
-        <framework src="org.mnode.ical4j:ical4j:1.0.7">
-        </framework>
-        <framework src="com.google.api-client:google-api-client-gson:1.22.0">
-        </framework>
-        <framework src="com.google.api-client:google-api-client-android:1.22.0">
-        </framework>
-        <framework src="com.google.apis:google-api-services-calendar:v3-rev243-1.22.0">
-        </framework>
-        <framework src="com.google.android.gms:play-services-auth:10.2.1">
-        </framework>
-        <framework src="pub.devrel:easypermissions:1.2.0"> </framework>
+        <framework src="org.mnode.ical4j:ical4j:1.0.7"></framework>
+        <framework src="com.google.api-client:google-api-client-gson:1.22.0"></framework>
+        <framework src="com.google.api-client:google-api-client-android:1.22.0"></framework>
+        <framework src="com.google.apis:google-api-services-calendar:v3-rev243-1.22.0"></framework>
+        <framework src="com.google.android.gms:play-services-auth:10.2.1"></framework>
+        <framework src="pub.devrel:easypermissions:1.2.0"></framework>
 
         <source-file src="src/android/RBICalSubscriber.java" target-dir="src/com/rosterbot/cordova/plugin">
         </source-file>
